@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 </head>
-    <tittle>Login</tittle>
+    <tittle></tittle>
 </head>
 <body>
 <div class="main">
@@ -28,8 +28,10 @@
                         <input type="password" name="password" id="password">
                     </div>
                     
-                    <div>
+                    <div class ="login-button">
                         <input type="submit" name="submit" value="Login">
+                    </div>
+                        <a href="register.php"> don't have an account? register here!</a>
                     </div>
                 </form>
 
