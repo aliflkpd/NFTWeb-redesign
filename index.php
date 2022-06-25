@@ -20,6 +20,6 @@ require "session.php";
     }
 </Style>
 <body>
-    <h1>Welcome</h1>
+    <h1>Welcome, <?php echo $_SESSION['email']; ?></h1>
 </body>
 </html>
