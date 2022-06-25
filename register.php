@@ -44,7 +44,7 @@
                         }
                         else {
                             $queryInsert = mysqli_query($con, "INSERT INTO users (email,password) VALUES 
-                            ('$email','$password')");
+                            ('$email','$encryptedPassword')");
                         
                         }
                         IF($queryInsert) {
