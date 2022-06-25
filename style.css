@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+.main {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-content h1{
+    text-align: center;
+}
+
+.div-box {
+    border: solid 1px;
+    width: 500px;
+    padding: 25px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+form label {
+    display: block;
+    font-size: 15px;
+}
+
+form input {
+    width: 100%;
+    box-sizing: border-box;
+    height: 30px;
+    font-size: 15px;
+    line-height:1.5;
+}
