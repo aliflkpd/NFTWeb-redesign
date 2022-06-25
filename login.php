@@ -1,3 +1,7 @@
+<?php
+    session_start();
+    require "connection.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,9 +29,35 @@
                     </div>
                     
                     <div>
-                        <input type="submit" name="submit" value="Register">
+                        <input type="submit" name="submit" value="Login">
                     </div>
                 </form>
+
+                <?php
+                    if(isset($_POST['submit'])){
+                    $email = htmlspecialchars($_POST['email']);
+                    $password = htmlspecialchars($_POST['password']);
+
+                    $query = mysqli_query($con, "SELECT * FROM users WHERE email='$email'");
+                    $count = mysqli_num_rows($query);
+                    
+                    if($count > 0) {
+                        $data = mysqli_fetch_array($query);
+                        if(password_verify($password, $data['password'])) {
+                            $_SESSION['logged_in'] = true;
+                            $_SESSION['email'] = $data['email'];
+
+                            header("location: index.php");
+                        } 
+                        else {
+                            echo "Your Password is invalid";
+                        }
+                    }
+                    else {
+                        echo "Your account do not exist!";
+                    }
+                }
+                ?>
         </div>
     </div>
 </div>
