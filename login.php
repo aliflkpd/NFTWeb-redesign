@@ -16,8 +16,10 @@
 <body>
 <div class="main">
     <div class="div-content">
-        <h1>Login</h1>
+    <div class="all">
+        <h1 >Login</h1>
         <div class="div-box">
+            
         <form action="" method="post">
                     <div>
                         <label for="email">Email</label>
@@ -34,6 +36,7 @@
                     </div>
                         <a href="register.php"> don't have an account? register here!</a>
                     </div>
+                </div>
                 </form>
 
                 <?php
