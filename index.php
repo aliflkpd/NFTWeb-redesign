@@ -13,7 +13,7 @@ include "header.php"
 </head>
 
 
-<body style="background-color: #FF8700">
+<body style="background-color: #ff6f00">
     <h1>Welcome, <?php echo $_SESSION['WalletID']; ?></h1>
       
 </body>

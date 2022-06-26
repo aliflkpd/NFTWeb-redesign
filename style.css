@@ -4,6 +4,9 @@ body {
     margin: 0;
     
 }
+.all {
+    color: #fff;
+}
 .main {
     margin: 0;
     height: 100vh;
@@ -40,6 +43,14 @@ form input {
     font-size: 15px;
     line-height:1.5;
 }
+<<<<<<< HEAD
+.header {
+    color: #ffffff;
+
+}
+    
+
+=======
 
 /* Style the header with a grey background and some padding */
 .header {
@@ -94,3 +105,4 @@ form input {
       float: none;
     }
   }
+>>>>>>> f72a61a9f8700f33924edd953f6dd7979f455b45

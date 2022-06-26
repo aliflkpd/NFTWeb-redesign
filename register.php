@@ -13,6 +13,7 @@
 <body>
     <div class="main">
         <div class="div-content">
+        <div class="all">
             <h1>Register here</h1>
             <div class="div-box">
                 <form action="" method="post">
@@ -34,6 +35,7 @@
                     <div>
                         <input type="submit" name="submit" value="Register">
                     </div>
+            </div>
                 </form>
 
                 <?php 
