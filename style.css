@@ -1,4 +1,6 @@
 body {
+    background: #FF8700;
+    font-family: sans-serif;
     margin: 0;
     
 }
@@ -15,6 +17,7 @@ body {
 }
 
 .div-box {
+    background-color:black;
     border: solid 1px;
     width: 500px;
     padding: 25px;
