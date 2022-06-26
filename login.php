@@ -1,7 +1,7 @@
 <?php
     session_start();
     require "connection.php";
-    include "headerREgLog.php";
+    include "header.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">

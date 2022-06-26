@@ -48,14 +48,16 @@ form input {
   margin-top: 0px;
   margin-bottom: -1200px;
 }
+
 .header {
-  margin-top:-80px;
+  margin-top:-30px;
   margin-left:-10px;
 }
 
 .center {
   display: block;
   margin-left: auto;
+  margin-top:auto;  
   margin-right: auto;
   width: 50%;
 }
