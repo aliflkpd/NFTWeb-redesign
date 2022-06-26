@@ -18,22 +18,25 @@
             <div class="div-box">
                 <form action="" method="post">
                     <div>
-                        <label for="email">Email</label>
+                        <label class="emailbox" for="email">Email</label>
                         <input type="email" name="email" id="email">
                     </div>
                    
                     <div>
-                        <label for="WalletID">WalletID</label>
+                        <label class="walletbox" for="WalletID">WalletID</label>
                         <input type="WalletID" name="WalletID" id="WalletID">
                     </div>
 
                     <div>
-                        <label for="password">Password</label>
+                        <label class="passwordbox" for="password">Password</label>
                         <input type="password" name="password" id="password">
                     </div>
                     
-                    <div>
+                    <div class="register-button2">
                         <input type="submit" name="submit" value="Register">
+                    </div>
+                    <div>
+                        <a href="login.php"> <center> got an account? login here!</center></a>
                     </div>
             </div>
                 </form>

@@ -22,19 +22,20 @@
             
         <form action="" method="post">
                     <div>
-                        <label for="email">Email</label>
+                        <label class="emailbox" for="email">Email</label>
                         <input type="email" name="email" id="email">
                     </div>
                    
                     <div>
-                        <label for="password">Password</label>
+                        <label class="passwordbox" for="password">Password</label>
                         <input type="password" name="password" id="password">
                     </div>
                     
                     <div class ="login-button">
                         <input type="submit" name="submit" value="Login">
                     </div>
-                        <a href="register.php"> don't have an account? register here!</a>
+                    <div>
+                        <a href="register.php"> <br/><center> don't have an account? register here!</center></a>
                     </div>
                 </div>
                 </form>
