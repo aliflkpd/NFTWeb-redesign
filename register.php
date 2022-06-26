@@ -1,6 +1,6 @@
 <?php
     require "connection.php";
-    include "header.php";
+    include "headerREgLog.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">
