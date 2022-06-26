@@ -45,16 +45,17 @@ form input {
 }
 
 .footer {
-    margin-top: 400px;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-top:400px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-  .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
+  margin-top: 0px;
+  margin-bottom: -1200px;
+}
+.header {
+  margin-top:-80px;
+  margin-left:-10px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
