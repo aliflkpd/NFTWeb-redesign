@@ -1,6 +1,7 @@
 <?php
     session_start();
     require "connection.php";
+    include "header.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">

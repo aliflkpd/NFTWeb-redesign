@@ -12,7 +12,7 @@ require "session.php";
 </head>
 
 
-<body style="background-color: FF8700>
+<body style="background-color: #FF8700">
     <h1>Welcome, <?php echo $_SESSION['WalletID']; ?></h1>
       
 </body>
