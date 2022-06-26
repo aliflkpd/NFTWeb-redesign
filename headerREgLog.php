@@ -63,7 +63,7 @@ body {
 </style>
 </head>
 <body>
-<h1><img src="text.jpg" width=50%></h1>
+<h1><img src="text.jpg" width=1000 height=70 class="center"></h1>
 
 </body>
 </html>

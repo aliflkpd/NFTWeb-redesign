@@ -52,6 +52,12 @@ form input {
     padding-left: 0px;
     padding-right: 0px;
   }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 <<<<<<< HEAD
 .header {
     color: #ffffff;
