@@ -8,18 +8,12 @@ require "session.php";
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <tittle></tittle>
+    <?php include "header.php"; ?>
 </head>
 
-<Style>
-    body {
-        margin : 0;
-        height : 100vh;
-        display : flex;
-        justify-content: center;
-        align-items: center;
-    }
-</Style>
-<body>
+
+<body style="background-color: FF8700>
     <h1>Welcome, <?php echo $_SESSION['WalletID']; ?></h1>
+      
 </body>
 </html>
