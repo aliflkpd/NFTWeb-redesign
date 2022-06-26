@@ -16,4 +16,6 @@ require "session.php";
     <h1>Welcome, <?php echo $_SESSION['WalletID']; ?></h1>
       
 </body>
+<?php include "footer.php" ?>
+
 </html>
