@@ -39,6 +39,7 @@
                     if(isset($_POST['submit'])){
                     $email = htmlspecialchars($_POST['email']);
                     $password = htmlspecialchars($_POST['password']);
+                    $WalletID= htmlspecialchars($_POST['WalletID']);
 
                     $query = mysqli_query($con, "SELECT * FROM users WHERE email='$email'");
                     $count = mysqli_num_rows($query);
@@ -48,6 +49,7 @@
                         if(password_verify($password, $data['password'])) {
                             $_SESSION['logged_in'] = true;
                             $_SESSION['email'] = $data['email'];
+                            $_SESSION['WalletID'] = $data['WalletID'];
 
                             header("location: index.php");
                         } 
