@@ -63,13 +63,7 @@ body {
 </style>
 </head>
 <body>
-
-<div class="header">
-  <a href="#default">
-  <a href="#default" class="logo">Baby Domination</a>
-  <div class="header-right">
-  </div>
-</div>
+<h1><img src="text.jpg" width=50%></h1>
 
 </body>
 </html>
