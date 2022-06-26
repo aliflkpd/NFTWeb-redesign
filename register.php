@@ -1,5 +1,6 @@
 <?php
     require "connection.php";
+    include "header.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">
