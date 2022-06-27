@@ -15,8 +15,8 @@ require "session.php";
     <head>
 <style>
 h1 {
-  color: white;
-  text-shadow: 2px 2px 4px #000000;
+  color: #000000;
+  text-shadow: 2px 2px 4px #8a8a8a;
 }
 </style>
 </head>
