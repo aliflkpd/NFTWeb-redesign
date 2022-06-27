@@ -17,7 +17,7 @@
 <div class="main">
     <div class="div-content">
     <div class="all">
-        <h1 >Login</h1>
+        <h1><div class="center"><img src="text.jpg" width=100% height=100%></h1></div>
         <div class="div-box">
             
         <form action="" method="post">
@@ -32,7 +32,7 @@
                     </div>
                     
                     <div class ="login-button">
-                        <input type="submit" name="submit" value="Login">
+                        <input type="submit" name="submit" value="Log in">
                     </div>
                     <div>
                         <a href="register.php"> <br/><center> don't have an account? register here!</center></a>
