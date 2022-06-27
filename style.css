@@ -106,9 +106,11 @@ form label {
 .button {
 	text-decoration: none;
 	float: right;
+    box-shadow: 5px 5px #575859;
+    
   padding: 12px;
   margin: 15px;
-  color: white;
+  color: rgb(255, 255, 255);
   width: 25px;
   background-color: black;
   transition: width .35s;
