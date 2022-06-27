@@ -31,11 +31,11 @@
   <body>
    <div class="namakelompok">
     <h3></h3><center> DISUSUN OLEH : <br/> KELOMPOK TIDUR SEJAM PERMINGGU <br/> 
-    <marquee bgcolor="red"scrollamount="7" width="600">Andi Alif Lakipadada (42030077)</marquee><br/>
-    <marquee bgcolor="orange"scrollamount="8" width="600">Risky Putra Prayoga (42030051) </marquee><br/>
-    <marquee bgcolor="yellow"scrollamount="9" width="600"> Ketut Yudiantara (42030057) </marquee><br/>
-    <marquee bgcolor="green"scrollamount="10" width="600"> Rayhan Mahaputra (42030049) </marquee><br/>
-    <marquee bgcolor="blue"scrollamount="11" width="600"> Krisna Danendra (42030059) </marquee><br/></center></div></h3>
+    <marquee bgcolor="#7f2524"scrollamount="7" width="600">Andi Alif Lakipadada (42030077)</marquee><br/>
+    <marquee bgcolor="#e28679"scrollamount="8" width="600">Risky Putra Prayoga (42030051) </marquee><br/>
+    <marquee bgcolor="#e2a2b2"scrollamount="9" width="600"> Ketut Yudiantara (42030057) </marquee><br/>
+    <marquee bgcolor="#9b9ea5"scrollamount="10" width="600"> Rayhan Mahaputra (42030049) </marquee><br/>
+    <marquee bgcolor="#fdbc5e"scrollamount="11" width="600"> Krisna Danendra (42030059) </marquee><br/></center></div></h3>
 
   </body>
  <?php
