@@ -17,7 +17,8 @@
 <div class="main">
     <div class="div-content">
     <div class="all">
-        <h1><div class="center"><img src="text.jpg" width=100% height=100%></h1></div>
+    <div class="center">
+        <h1><img src="text.jpg" width=100% height=100%></h1></div>
         <div class="div-box">
             
         <form action="" method="post">
@@ -38,6 +39,8 @@
                         <a href="register.php"> <br/><center> don't have an account? register here!</center></a>
                     </div>
                 </div>
+            </div>
+        </div>
                 </form>
 
                 <?php
