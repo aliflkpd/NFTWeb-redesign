@@ -186,6 +186,7 @@ form input {
     font-family: 'Roboto', sans-serif;
     font-family: 'Trispace', sans-serif;
     font-family: 'VT323', monospace;
+    text-shadow: 2px 2px 4px #8a8a8a;
 }
 
 .namakelompok {
@@ -194,4 +195,5 @@ form input {
     font-family: 'Roboto', sans-serif;
     font-family: 'Trispace', sans-serif;
     font-family: 'VT323', monospace;
+    text-shadow: 2px 2px 4px #8a8a8a;
 }

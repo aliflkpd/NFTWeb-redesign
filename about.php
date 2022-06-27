@@ -28,8 +28,15 @@
   <h1><CENTER>ABOUT US</CENTER><hr>
   <h1><img src="img/about2.png" style="width:100%; border: 2px solid cyan;
   border-radius: 8px;"></div></h1>
+  <body>
    <div class="namakelompok">
-    <h3></h3><center>DISUSUN OLEH : <br/> KELOMPOK TIDAK KENAL PULANG <BR/> Andi Alif Lakipadada (42030077) <BR/> Risky Putra Prayoga (42030051) <br/> Ketut Yudiantara (42030057) <br/> Rayhan Mahaputra (42030049) <br/> Krisna Danendra (42030059)</center></div></h3>
+    <h3></h3><center> DISUSUN OLEH : <br/> KELOMPOK TIDUR SEJAM PERMINGGU <br/> 
+    <marquee bgcolor="red"scrollamount="7" width="600">Andi Alif Lakipadada (42030077)</marquee><br/>
+    <marquee bgcolor="orange"scrollamount="8" width="600">Risky Putra Prayoga (42030051) </marquee><br/>
+    <marquee bgcolor="yellow"scrollamount="9" width="600"> Ketut Yudiantara (42030057) </marquee><br/>
+    <marquee bgcolor="green"scrollamount="10" width="600"> Rayhan Mahaputra (42030049) </marquee><br/>
+    <marquee bgcolor="blue"scrollamount="11" width="600"> Krisna Danendra (42030059) </marquee><br/></center></div></h3>
+
   </body>
  <?php
     include "footer.php";
