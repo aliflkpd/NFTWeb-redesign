@@ -28,6 +28,11 @@ h1 {
   <a class="button" href="logout.php"><div class="logout">LOGOUT</div> </a>
   </div>
 </h2>
+<h3><br/><br/><br/><br/>
+
+    <div class="navigation2">
+        <a class="button" href="aboutus.php"><div class="about us">about us</div> </a>
+</h3>
 <style>
       button {
         display: inline-block;
