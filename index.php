@@ -13,6 +13,10 @@ require "session.php";
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:ital,wght@0,100;0,300;1,100&family=Trispace:wght@500;600;800&family=VT323&display=swap" rel="stylesheet">
 <style>
+h1 {
+  color: #000000;
+  text-shadow: 2px 2px 4px #8a8a8a;
+}
 </style>
 </head>
 <body style="background-color: #ff6f00">
@@ -21,7 +25,6 @@ require "session.php";
 </div>
 <h2>
   <div class="navigation">
-<<<<<<< HEAD
   <a class="button" href="logout.php"><div class="logout">LOGOUT</div> </a>
   </div>
 </h2>
@@ -67,19 +70,6 @@ require "session.php";
         right: 0;
       }
     </style>
-=======
-  <a class="button" href="logout.php"><div class="logout">About Us</div></h2></a>
-</div>
-</div>
-<br/>
-<br/>
-<br/>
-<br/>
-<h3>
-  <div class="navigation">
-  <a class="button" href="logout.php"><div class="logout">LOGOUT</div></h3></a>
-</div>
->>>>>>> 8adfb341434f5f7b2766f2891af08fbb01a66039
 
     <div class="container1 ml-5 mt-3" style="width: 220px; float:left;
     height: 300px;
@@ -140,7 +130,7 @@ require "session.php";
             <center><img src="img/eth.png" style="width:15px; height:23px; margin-bottom:-6px">4</center>
 
             </div>
-            <div class="buy" style="width:100%; height:5%; background:white;">
+            <div class="buy" style="width:100%; height:10%; background:white;">
                 <center><button type="button">BUY</center>
          </div>
     </div>
