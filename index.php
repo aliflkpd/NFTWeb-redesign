@@ -10,9 +10,15 @@ require "session.php";
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <tittle></tittle>
    
+    <head>
+<style>
+h1 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+</style>
 </head>
-
-
+<body>
 <body style="background-color: #ff6f00">
     <h1>Welcome, <?php echo $_SESSION['WalletID']; ?></h1>
       
