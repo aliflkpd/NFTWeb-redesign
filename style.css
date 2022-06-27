@@ -29,6 +29,11 @@ body {
     box-sizing: border-box;
     border-radius: 5px;
     box-shadow: 1px 1px 2px black, 0 0 25px gray, 0 0 5px black;
+    position: absolute; /* or absolute */
+    top: 300;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
 }
 
 .text-shadow {
@@ -77,6 +82,7 @@ form input {
     font-size: 15px;
     line-height:1.5;
 }
+
 .register-button {
   margin-left:auto;
 }
@@ -94,9 +100,9 @@ form input {
 .center {
   display: block;
   margin-left: auto;
-  margin-top:auto;  
+  top:20%; 
   margin-right: auto;
-  margin-bottom: 30px;
+  margin-bottom: 40%;
   width: 50%;
 }
 
