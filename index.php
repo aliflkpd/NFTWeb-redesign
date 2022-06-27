@@ -28,6 +28,48 @@ h1 {
   <a class="button" href="logout.php"><div class="logout">LOGOUT</div> </a>
   </div>
 </h2>
+<style>
+      button {
+        display: inline-block;
+        background-color: #009dff;
+        border: 2px solid white;
+        border-radius: 8px;
+        color: #eeeeee;
+        text-align: center;
+        font-size: 12px;
+        padding: 4px;
+        width: 100%;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+        margin-left:0;
+        margin-bottom:-20px;
+      }
+      button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+      button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+      button:hover {
+        background-color: #99f1ff;
+      }
+      button:hover span {
+        padding-right: 25px;
+      }
+      button:hover span:after {
+        opacity: 1;
+        right: 0;
+      }
+    </style>
 
     <div class="container1 ml-5 mt-3" style="width: 220px; float:left;
     height: 300px;
@@ -35,13 +77,13 @@ h1 {
         <div class="gambar" style="width:100%; height:60%; background:white;">
         <img src="img/evos.jpg" style="width:100%; height:100%;">
          </div>
-            <div class="ForText" style="width:100%; height:30%; background:white;">
+            <div class="ForText" style="width:100%; height:26%; background:white;">
             <h3><center>Baby#1</center></h3>
             <center><img src="img/eth.png" style="width:15px; height:23px; margin-bottom:-6px">4</center>
 
             </div>
-                <div class="buy-button" style="width:100%; height:10%; background:blue;">
-                <center><input type="submit" name="buy" value="Buy"></center>
+                <div class="buy" style="width:100%; height:5%; background:white;">
+                <center><button type="button">BUY</center>
          </div>
     </div>
     
@@ -51,13 +93,13 @@ h1 {
      <div class="gambar" style="width:100%; height:60%; background:white;">
         <img src="img/mulletgirl.jpg" style="width:100%; height:100%;">
     </div>
-    <div class="ForText" style="width:100%; height:30%; background:white;">
+    <div class="ForText" style="width:100%; height:26%; background:white;">
             <h3><center>Baby#1</center></h3>
             <center><img src="img/eth.png" style="width:15px; height:23px; margin-bottom:-6px">4</center>
 
             </div>
-                <div class="buy-button" style="width:100%; height:10%; background:blue;">
-                <center><input type="submit" name="buy" value="Buy"></center>
+            <div class="buy" style="width:100%; height:5%; background:white;">
+                <center><button type="button">BUY</center>
          </div>
     </div>
     
@@ -67,13 +109,13 @@ h1 {
     <div class="gambar" style="width:100%; height:60%; background:white;">
         <img src="img/kawaki.jpg" style="width:100%; height:100%;">
     </div>
-    <div class="ForText" style="width:100%; height:30%; background:white;">
+    <div class="ForText" style="width:100%; height:26%; background:white;">
             <h3><center>Baby#1</center></h3>
             <center><img src="img/eth.png" style="width:15px; height:23px; margin-bottom:-6px">4</center>
 
             </div>
-                <div class="buy-button" style="width:100%; height:10%; background:blue;">
-                <center><input type="submit" name="buy" value="Buy"></center>
+            <div class="buy" style="width:100%; height:5%; background:white;">
+                <center><button type="button">BUY</center>
          </div>
     </div>
     
@@ -83,13 +125,13 @@ h1 {
     <div class="gambar" style="width:100%; height:60%; background:white;">
         <img src="img/jb2.jpg" style="width:100%; height:100%;">
     </div>
-    <div class="ForText" style="width:100%; height:30%; background:white;">
+    <div class="ForText" style="width:100%; height:26%; background:white;">
             <h3><center>Baby#1</center></h3>
             <center><img src="img/eth.png" style="width:15px; height:23px; margin-bottom:-6px">4</center>
 
             </div>
-                <div class="buy-button" style="width:100%; height:10%; background:blue;">
-                <center><input type="submit" name="buy" value="Buy"></center>
+            <div class="buy" style="width:100%; height:5%; background:white;">
+                <center><button type="button">BUY</center>
          </div>
     </div>
     
