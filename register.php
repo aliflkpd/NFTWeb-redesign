@@ -14,7 +14,8 @@
     <div class="main">
         <div class="div-content">
         <div class="all">
-            <h1>Register here</h1>
+        <div class="center">
+        <h1><img src="text.jpg" width=100% height=100%></h1></div>
             <div class="div-box">
                 <form action="" method="post">
                     <div>
