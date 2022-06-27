@@ -70,6 +70,11 @@ form label {
   margin-top: 35px;
 }
 
+.buy-button {
+
+  width:100%;
+}
+
 .login-button {
   margin-top:50px;
   margin-left:auto;
@@ -157,5 +162,16 @@ form input {
     font-family: 'Roboto', sans-serif;
     font-family: 'Trispace', sans-serif;
     font-family: 'VT323', monospace;
+}
+
+.container1 {
+  margin-left:20%;
+  margin-top:10%;
+  margin-bottom: 10px;
+}
+.container2 {
+  margin-left:2%;
+  margin-top:10%;
+  margin-bottom:10%;
 }
 
