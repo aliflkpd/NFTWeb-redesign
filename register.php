@@ -63,7 +63,6 @@
                         
                         IF($queryInsert) {
                             echo "Register success!";
-                            echo '<a href="login.php"><br>Click here to login</a>';
                         }
                     }
                     }
