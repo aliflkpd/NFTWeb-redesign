@@ -180,6 +180,24 @@ form input {
   margin-bottom:10%;
 }
 
+.container3 {
+  border: 2px solid cyan;
+  border-radius: 8px;
+  padding: 5px;
+  margin-left:20%;
+  margin-top:-5%;
+  margin-bottom:10%;
+}
+
+.container4 {
+  border: 2px solid cyan;
+  border-radius: 8px;
+  padding: 5px;
+  margin-left:2%;
+  margin-top:-5%;
+  margin-bottom:10%;
+}
+
 .containerfoto {
   font-size: 20px;
   font-family: 'Indie Flower', cursive;
@@ -196,4 +214,20 @@ form input {
     font-family: 'Trispace', sans-serif;
     font-family: 'VT323', monospace;
     text-shadow: 2px 2px 4px #8a8a8a;
+}
+
+.textborder {
+  border: 2px solid cyan;
+  border-radius: 8px;
+  padding: 100px;
+  width: 50%;
+  height:50%;
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  margin-top: 20px;
+}
+
+.purchasingbox {
+  margin-top: -700px;
 }

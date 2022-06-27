@@ -84,11 +84,11 @@ h1 {
          </div>
             <div class="ForText" style="width:100%; height:26%; background:white;">
             <h3><center>Baby#1</center></h3>
-            <center><img src="img/eth.png" style="width:15px; height:23px; margin-bottom:-6px">4</center>
+            <center><img src="img/eth.png" style="width:15px; height:23px; margin-bottom:-6px">2</center>
 
             </div>
                 <div class="buy" style="width:100%; height:5%; background:white;">
-                <center><button type="button">BUY</center>
+                <center><button onclick="window.location.href = 'buy.php'" type="button">BUY</center>
          </div>
     </div>
     
@@ -99,12 +99,12 @@ h1 {
         <img src="img/mulletgirl.jpg" style="width:100%; height:100%;">
     </div>
     <div class="ForText" style="width:100%; height:26%; background:white;">
-            <h3><center>Baby#1</center></h3>
-            <center><img src="img/eth.png" style="width:15px; height:23px; margin-bottom:-6px">4</center>
+            <h3><center>Baby#2</center></h3>
+            <center><img src="img/eth.png" style="width:15px; height:23px; margin-bottom:-6px">2</center>
 
             </div>
             <div class="buy" style="width:100%; height:5%; background:white;">
-                <center><button type="button">BUY</center>
+            <center><button onclick="window.location.href = 'buy.php'" type="button">BUY</center>
          </div>
     </div>
     
@@ -115,12 +115,12 @@ h1 {
         <img src="img/kawaki.jpg" style="width:100%; height:100%;">
     </div>
     <div class="ForText" style="width:100%; height:26%; background:white;">
-            <h3><center>Baby#1</center></h3>
-            <center><img src="img/eth.png" style="width:15px; height:23px; margin-bottom:-6px">4</center>
+            <h3><center>Baby#3</center></h3>
+            <center><img src="img/eth.png" style="width:15px; height:23px; margin-bottom:-6px">2</center>
 
             </div>
             <div class="buy" style="width:100%; height:5%; background:white;">
-                <center><button type="button">BUY</center>
+            <center><button onclick="window.location.href = 'buy.php'" type="button">BUY</center>
          </div>
     </div>
     
@@ -131,12 +131,78 @@ h1 {
         <img src="img/jb2.jpg" style="width:100%; height:100%;">
     </div>
     <div class="ForText" style="width:100%; height:26%; background:white;">
-            <h3><center>Baby#1</center></h3>
-            <center><img src="img/eth.png" style="width:15px; height:23px; margin-bottom:-6px">4</center>
+            <h3><center>Baby#4</center></h3>
+            <center><img src="img/eth.png" style="width:15px; height:23px; margin-bottom:-6px">2</center>
 
             </div>
             <div class="buy" style="width:100%; height:10%; background:white;">
-                <center><button type="button">BUY</center>
+            <center><button onclick="window.location.href = 'buy.php'" type="button">BUY</center>
+         </div>
+    </div>
+
+    <div class="container3 ml-5 mt-3" style="width: 220px; float:left;
+    height: 300px;
+    background: black";>
+    <div class="gambar" style="width:100%; height:60%; background:white;">
+        <img src="img/pandkarafuru4.jpg" style="width:100%; height:100%;">
+    </div>
+    <div class="ForText" style="width:100%; height:26%; background:white;">
+            <h3><center>Baby#5</center></h3>
+            <center><img src="img/eth.png" style="width:15px; height:23px; margin-bottom:-6px">2</center>
+
+            </div>
+            <div class="buy" style="width:100%; height:10%; background:white;">
+            <center><button onclick="window.location.href = 'buy.php'" type="button">BUY</center>
+         </div>
+    </div>
+    
+    <div class="container4 ml-5 mt-3" style="width: 220px; float:left;
+    height: 300px;
+    background: black";>
+    <div class="gambar" style="width:100%; height:60%; background:white;">
+        <img src="img/gojek.jpg" style="width:100%; height:100%;">
+    </div>
+    <div class="ForText" style="width:100%; height:26%; background:white;">
+            <h3><center>Baby#6</center></h3>
+            <center><img src="img/eth.png" style="width:15px; height:23px; margin-bottom:-6px">2</center>
+
+            </div>
+            <div class="buy" style="width:100%; height:10%; background:white;">
+            <center><button onclick="window.location.href = 'buy.php'" type="button">BUY</center>
+         </div>
+    </div>
+
+    <div class="container4 ml-5 mt-3" style="width: 220px; float:left;
+    height: 300px;
+    background: black";>
+    <div class="gambar" style="width:100%; height:60%; background:white;">
+        <img src="img/goku.jpg" style="width:100%; height:100%;">
+    </div>
+    <div class="ForText" style="width:100%; height:26%; background:white;">
+            <h3><center>Baby#7</center></h3>
+            <center><img src="img/eth.png" style="width:15px; height:23px; margin-bottom:-6px">2</center>
+
+            </div>
+            <div class="buy" style="width:100%; height:10%; background:white;">
+            <center><button onclick="window.location.href = 'buy.php'" type="button">BUY</center>
+         </div>
+    </div>
+
+    <div class="container4 ml-5 mt-3" style="width: 220px; float:left;
+    height: 300px;
+    background: black";>
+    <div class="gambar" style="width:100%; height:60%; background:white;">
+    <video width="100%" height="100%" autoplay>
+      <source src="img/datamine.mp4" type="video/mp4">
+    </video>
+    </div>
+    <div class="ForText" style="width:100%; height:26%; background:white;">
+            <h3><center>LegendaryBaby#1</center></h3>
+            <center><img src="img/eth.png" style="width:15px; height:23px; margin-bottom:-6px">5</center>
+
+            </div>
+            <div class="buy" style="width:100%; height:10%; background:white;">
+            <center><button onclick="window.location.href = 'buy.php'" type="button">BUY</center>
          </div>
     </div>
     
