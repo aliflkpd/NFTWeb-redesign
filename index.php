@@ -13,10 +13,6 @@ require "session.php";
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:ital,wght@0,100;0,300;1,100&family=Trispace:wght@500;600;800&family=VT323&display=swap" rel="stylesheet">
 <style>
-h1 {
-  color: #000000;
-  text-shadow: 2px 2px 4px #8a8a8a;
-}
 </style>
 </head>
 <body style="background-color: #ff6f00">
@@ -25,9 +21,17 @@ h1 {
 </div>
 <h2>
   <div class="navigation">
-  <a class="button" href="logout.php"><div class="logout">LOGOUT</div> </a>
-  </div>
-</h2>
+  <a class="button" href="logout.php"><div class="logout">About Us</div></h2></a>
+</div>
+</div>
+<br/>
+<br/>
+<br/>
+<br/>
+<h3>
+  <div class="navigation">
+  <a class="button" href="logout.php"><div class="logout">LOGOUT</div></h3></a>
+</div>
 
     <div class="container1 ml-5 mt-3" style="width: 220px; float:left;
     height: 300px;
