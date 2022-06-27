@@ -20,7 +20,10 @@ h1 {
 </head>
 <body>
 <body style="background-color: #ff6f00">
-    <h1>Welcome, <?php echo $_SESSION['WalletID']; ?></h1>
+<div class="moving">
+<h1><marquee direction="right", scrolldelay="100">Welcome, <?php echo $_SESSION['WalletID']; ?></h1></marquee>
+</div>
+    
       
 </body>
 <?php include "footer.php" ?>
