@@ -25,6 +25,7 @@ h1 {
 <div class="moving">
 <h1><marquee direction="right", scrolldelay="100">Welcome, <?php echo $_SESSION['WalletID']; ?></h1></marquee>
 </div>
+ <div class="logout-button"> <button type="submit" class="btn btn-danger" > <a href="logout.php">Logout</a></button> </div>  
     
       
 </body>

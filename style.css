@@ -77,6 +77,14 @@ form label {
   width:50%;
 }
 
+.register-button {
+  margin-left:auto;
+}
+
+.logout-button {
+  margin-left:95%;
+}
+
 .register-button2 {
   margin-top:30px;
   margin-left:auto;
@@ -92,9 +100,7 @@ form input {
     line-height:1.5;
 }
 
-.register-button {
-  margin-left:auto;
-}
+
 
 .footer {
   margin-top: 0px;
@@ -112,3 +118,4 @@ form input {
     font-family: 'Roboto', sans-serif;
     font-family: 'Trispace', sans-serif;
 }
+
