@@ -30,12 +30,13 @@
   border-radius: 8px;"></div></h1>
   <body>
    <div class="namakelompok">
+    <center>This NFT was manually drawn by @aliflkpd,<br/>BabyDomination NFT is a lifestyle trend based pixel character drawn in a very unique baby as it's character.<br/> Therefore we created this website to be our firsthand marketplace.<br/>For more info about us, come and join our communities on discord and social media </center>
     <h3></h3><center> DISUSUN OLEH : <br/> KELOMPOK TIDUR SEJAM PERMINGGU <br/> 
-    <marquee bgcolor="#F7EC09"scrollamount="7" width="600">Andi Alif Lakipadada (42030077)</marquee><br/>
-    <marquee bgcolor="#3EC70B"scrollamount="8" width="600">Risky Putra Prayoga (42030051) </marquee><br/>
-    <marquee bgcolor="#3B44F6"scrollamount="9" width="600"> Ketut Yudiantara (42030057) </marquee><br/>
-    <marquee bgcolor="#A149FA"scrollamount="10" width="600"> Rayhan Mahaputra (42030049) </marquee><br/>
-    <marquee bgcolor="#F806CC"scrollamount="11" width="600"> Krisna Danendra (42030059) </marquee><br/></center></div></h3>
+    <marquee bgcolor="#F70909"scrollamount="7" width="600">Andi Alif Lakipadada (42030077)</marquee><br/>
+    <marquee bgcolor="#0B6CC7"scrollamount="8" width="600">Risky Putra Prayoga (42030051) </marquee><br/>
+    <marquee bgcolor="#FFEA00"scrollamount="9" width="600"> Ketut Yudiantara (42030057) </marquee><br/>
+    <marquee bgcolor="#11D000"scrollamount="10" width="600"> Rayhan Mahaputra (42030049) </marquee><br/>
+    <marquee bgcolor="#F649C5"scrollamount="11" width="600"> Krisna Danendra (42030059) </marquee><br/></center></div></h3>
 
   </body>
  <?php

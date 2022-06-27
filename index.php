@@ -96,7 +96,7 @@ h1 {
     height: 300px;
     background: black";>
      <div class="gambar" style="width:100%; height:60%; background:white;">
-        <img src="img/mulletgirl.jpg" style="width:100%; height:100%;">
+        <img src="img/futuristicalif.jpg" style="width:100%; height:100%;">
     </div>
     <div class="ForText" style="width:100%; height:26%; background:white;">
             <h3><center>Baby#2</center></h3>
@@ -192,7 +192,7 @@ h1 {
     height: 300px;
     background: black";>
     <div class="gambar" style="width:100%; height:60%; background:white;">
-    <video width="100%" height="100%" autoplay>
+    <video width="100%" height="100%" autoplay loop>
       <source src="img/datamine.mp4" type="video/mp4">
     </video>
     </div>
