@@ -179,3 +179,19 @@ form input {
   margin-top:10%;
   margin-bottom:10%;
 }
+
+.containerfoto {
+  font-size: 20px;
+  font-family: 'Indie Flower', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Trispace', sans-serif;
+    font-family: 'VT323', monospace;
+}
+
+.namakelompok {
+  font-size: 25px;
+  font-family: 'Indie Flower', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Trispace', sans-serif;
+    font-family: 'VT323', monospace;
+}
