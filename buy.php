@@ -10,8 +10,8 @@
  ?>
  <style>
    .purchasingbox {
-      font-size: 25px;
-  font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+    font-family: 'Indie Flower', cursive;
     font-family: 'Roboto', sans-serif;
     font-family: 'Trispace', sans-serif;
     font-family: 'VT323', monospace;
