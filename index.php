@@ -88,7 +88,7 @@ h1 {
     height: 300px;
     background: black";>
         <div class="gambar" style="width:100%; height:60%; background:white;">
-        <img src="img/evos.jpg" style="width:100%; height:100%;">
+        <img src="img/evos.jpg" style="width:100%; height:110%;">
          </div>
             <div class="ForText" style="width:100%; height:26%; background:white;">
             <h3><center>Baby#1</center></h3>
@@ -104,7 +104,7 @@ h1 {
     height: 300px;
     background: black";>
      <div class="gambar" style="width:100%; height:60%; background:white;">
-        <img src="img/futuristicalif.jpg" style="width:100%; height:100%;">
+        <img src="img/pinkninjagirl.jpg" style="width:100%; height:110%;">
     </div>
     <div class="ForText" style="width:100%; height:26%; background:white;">
             <h3><center>Baby#2</center></h3>
@@ -120,7 +120,7 @@ h1 {
     height: 300px;
     background: black";>
     <div class="gambar" style="width:100%; height:60%; background:white;">
-        <img src="img/kawaki.jpg" style="width:100%; height:100%;">
+        <img src="img/junglearmy.jpg" style="width:100%; height:110%;">
     </div>
     <div class="ForText" style="width:100%; height:26%; background:white;">
             <h3><center>Baby#3</center></h3>
@@ -136,7 +136,7 @@ h1 {
     height: 300px;
     background: black";>
     <div class="gambar" style="width:100%; height:60%; background:white;">
-        <img src="img/jb2.jpg" style="width:100%; height:100%;">
+        <img src="img/futuristicalif.jpg" style="width:100%; height:110%;">
     </div>
     <div class="ForText" style="width:100%; height:26%; background:white;">
             <h3><center>Baby#4</center></h3>
@@ -152,7 +152,7 @@ h1 {
     height: 300px;
     background: black";>
     <div class="gambar" style="width:100%; height:60%; background:white;">
-        <img src="img/pandkarafuru4.jpg" style="width:100%; height:100%;">
+        <img src="img/pandkarafuru4.jpg" style="width:100%; height:110%;">
     </div>
     <div class="ForText" style="width:100%; height:26%; background:white;">
             <h3><center>Baby#5</center></h3>
@@ -168,7 +168,7 @@ h1 {
     height: 300px;
     background: black";>
     <div class="gambar" style="width:100%; height:60%; background:white;">
-        <img src="img/gojek.jpg" style="width:100%; height:100%;">
+        <img src="img/gojek.jpg" style="width:100%; height:110%;">
     </div>
     <div class="ForText" style="width:100%; height:26%; background:white;">
             <h3><center>Baby#6</center></h3>
@@ -184,7 +184,7 @@ h1 {
     height: 300px;
     background: black";>
     <div class="gambar" style="width:100%; height:60%; background:white;">
-        <img src="img/goku.jpg" style="width:100%; height:100%;">
+        <img src="img/goku.jpg" style="width:100%; height:110%;">
     </div>
     <div class="ForText" style="width:100%; height:26%; background:white;">
             <h3><center>Baby#7</center></h3>
@@ -200,7 +200,7 @@ h1 {
     height: 300px;
     background: black";>
     <div class="gambar" style="width:100%; height:60%; background:white;">
-    <video width="100%" height="100%" autoplay loop>
+    <video width="100%" height="110%" autoplay loop>
       <source src="img/datamine.mp4" type="video/mp4">
     </video>
     </div>
@@ -214,7 +214,6 @@ h1 {
          </div>
     </div>
     
-
 </body>
 <?php include "footer.php" ?>
 
