@@ -26,7 +26,7 @@
 <br/><br/><br/><br/><br/><br/>
   <div class="containerfoto">
   <h1><CENTER>ABOUT US</CENTER><hr>
-  <h1><img src="img/aboutbanner.jpg" style="width:100%; border: 2px solid cyan;
+  <h1><img src="img/aboutus.jpg" style="width:100%; border: 2px solid cyan;
   border-radius: 8px;"></div></h1>
   <body>
    <div class="namakelompok">
