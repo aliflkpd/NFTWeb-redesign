@@ -95,9 +95,9 @@ form label {
 .logout {
   font-size: 22px;
   font-family: 'Indie Flower', cursive;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Trispace', sans-serif;
-    font-family: 'VT323', monospace;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Trispace', sans-serif;
+  font-family: 'VT323', monospace;
 	position: relative;
   right: -18px;
   bottom: -4px;
@@ -229,5 +229,4 @@ form input {
 
 .purchasingbox {
   margin-top: -700px;
-
 }

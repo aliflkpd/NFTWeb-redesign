@@ -15,7 +15,7 @@
         <div class="div-content">
         <div class="all">
         <div class="center">
-        <h1><img src="text.jpg" width=100% height=100%></h1></div>
+        <h1><img src="img/text.jpg" width=100% height=100%></h1></div>
             <div class="div-box">
                 <form action="" method="post">
                     <div>
