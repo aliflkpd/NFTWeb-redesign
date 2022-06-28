@@ -45,8 +45,8 @@
 
                 <?php
                     if(isset($_POST['submit'])){
-                    $email = htmlspecialchars($_POST['email']);
-                    $password = htmlspecialchars($_POST['password']);
+                    $email = ($_POST['email']);
+                    $password = ($_POST['password']);
 
                     $query = mysqli_query($con, "SELECT * FROM users WHERE email='$email'");
                     $count = mysqli_num_rows($query);

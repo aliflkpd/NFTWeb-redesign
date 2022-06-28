@@ -44,9 +44,9 @@
 
                 <?php 
                     if(isset($_POST['submit'])){
-                        $email = htmlspecialchars($_POST['email']);
-                        $WalletID = htmlspecialchars($_POST['WalletID']);
-                        $password = htmlspecialchars($_POST['password']);
+                        $email = ($_POST['email']);
+                        $WalletID = ($_POST['WalletID']);
+                        $password = ($_POST['password']);
                         $encryptedPassword = password_hash($password, PASSWORD_DEFAULT);
                     
                         $query = mysqli_query($con, "SELECT email FROM users WHERE email='$email'");
