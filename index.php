@@ -30,7 +30,15 @@ h1 {
 </h2>
 <h3><br/><br/><br/><br/>
 
-    <div class="navigation2">
+  <div class="navigation2">
+    <style> 
+    .navigation2 {
+     font-family: 'Indie Flower', cursive;
+     font-family: 'Roboto', sans-serif;
+     font-family: 'Trispace', sans-serif;
+     font-family: 'VT323', monospace;
+      }
+      </style>
         <a class="button" href="about.php"><div class="about us">about us</div> </a>
 </h3>
 <style>
