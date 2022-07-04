@@ -52,8 +52,9 @@
                     $count = mysqli_num_rows($query);
                     
                     if($count > 0) {
+                        
                         $data = mysqli_fetch_array($query);
-                        if(password_verify($password, $data['password'])) {
+                            if(password_verify($password, $data['password'])) {
                             $_SESSION['logged_in'] = true;
                             $_SESSION['email'] = $data['email'];
                             $_SESSION['WalletID'] = $data['WalletID'];
