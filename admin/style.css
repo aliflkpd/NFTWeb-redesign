@@ -1,9 +1,6 @@
 body {
     background: #ff6f00;
-    font-family: 'Indie Flower', cursive;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Trispace', sans-serif;
-    font-family: 'VT323', monospace;
+    font-family: sans-serif;
     margin: 0;
     
 }
@@ -26,7 +23,7 @@ body {
 
 .div-box {
     background-color:black;
-    height: 450px;
+    height: 400px;
     width: 400px;
     padding: 25px;
     box-sizing: border-box;

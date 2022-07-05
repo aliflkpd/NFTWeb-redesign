@@ -20,7 +20,11 @@ h1 {
 }
 </style>
 </head>
-<body style="background-color: #ff6f00">
+<body style="background-color: #ff6f00;          
+         font-family: 'Indie Flower', cursive;
+         font-family: 'Roboto', sans-serif;
+         font-family: 'Trispace', sans-serif;
+         font-family: 'VT323', monospace;" >
 <div class="moving">
 <h1><marquee direction="right", scrolldelay="100">Welcome, <?php echo $_SESSION['WalletID']; ?></h1></marquee>
 </div>
@@ -59,6 +63,10 @@ h1 {
         margin-left:0;
         margin-bottom:-20px;
       }
+      button:hover {
+      background-color:#051A54;
+      transition: 0.7s;
+      }
     </style>
 
 <?php $posts = $con->query("SELECT * FROM nft");
@@ -70,7 +78,7 @@ while($post = $posts->fetch_object()) {
         <img src ="../assets/<?php echo $post->image ?>"width= "100%" height="120%"> </div>
         <h2 class="btn btn-outline-secondary"></h2></a>
           <div class="ForText" style="width:100%; height:24%; background:white;">
-          </br><center><?php echo $post->title; ?></center>
+          </br></br><center><?php echo $post->title; ?></center>
             <div class="price">
               <center><img src="../assets/eth.png" style="width:15px; height:23px; margin-bottom:-6px">
                 <?php echo $post->price; ?></center></div> </div>

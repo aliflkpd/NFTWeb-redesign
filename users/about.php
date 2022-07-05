@@ -11,8 +11,11 @@
 
 
   </head> 
-
-  <body style="background-color: #ff6f00">
+  <body style="background-color: #ff6f00;          
+         font-family: 'Indie Flower', cursive;
+         font-family: 'Roboto', sans-serif;
+         font-family: 'Trispace', sans-serif;
+         font-family: 'VT323', monospace;" >
   
   <div class="navigation">
   <a class="button" href="logout.php"><div class="logout">LOGOUT</div> </a>
@@ -21,9 +24,9 @@
 <h3><br/><br/><br/><br/>
 
     <div class="navigation2">
-        <a class="button" href="index.php"><div class="Our NFTs">Our NFTs</div> </a>
+        <a class="button" href="index.php"><div class="Our NFTs">Our NFTs</div> </a></div>
         <br/><br/><br/><br/>
-        <h1><CENTER><img src="../assets/text.jpg" width=50% height=50%></CENTER></h1></div>
+        
 </h3>
 
   <div class="containerfoto">
@@ -34,9 +37,10 @@
    <div class="namakelompok">
     <center>This NFT was manually drawn by @aliflkpd,<br/>BabyDomination NFT is a lifestyle trend based pixel character drawn in a very unique baby as it's character.<br/> Therefore we created this website to be our firsthand marketplace.<br/>For more info about us, come and join our communities on discord and social media </center>
     <h3></h3><center> Follow us on Social Media:<br/> <br/> 
-    <marquee bgcolor="#F70909"scrollamount="7" width="600">INSTAGRAM : @BABYDOMINATE.NFT (42030077)</marquee><br/>
+    <marquee bgcolor="#F70909"scrollamount="7" width="600">INSTAGRAM : @BABYDOMINATE.NFT </marquee><br/>
     <marquee bgcolor="#0B6CC7"scrollamount="8" width="600">TWITTER : @BABYDOMINATENFT </marquee><br/>
     <marquee bgcolor="#FFEA00"scrollamount="9" width="600"> OPENSEA : BABY DOMINATION NFT </marquee><br/>
+    <marquee bgcolor="#00D026"scrollamount="9" width="600"> FOR MORE INFORMATION, CLICK ON OUR FOOTER </marquee><br/>
 </center></div></h3>
 
   </body>

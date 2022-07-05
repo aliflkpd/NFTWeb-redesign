@@ -1,6 +1,6 @@
 <?php
     require "connection.php";
-    include "templates/header.php";
+    include "../templates/header.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -39,10 +39,7 @@
                     <div>
                         <a href="login.php"> <center> got an account? login here!</center></a>
                     </div>
-            </div>
-                </form>
-
-                <?php 
+                    <?php 
                     if(isset($_POST['submit'])){
                         $email = ($_POST['email']);
                         $WalletID = ($_POST['WalletID']);
@@ -55,7 +52,7 @@
                         
 
                         if($count > 0){
-                            echo "Email or WalletID already registered!";
+                           $error = true;
                         }
                         else {
                             $queryInsert = mysqli_query($con, "INSERT INTO users (email,password,WalletID) VALUES 
@@ -67,9 +64,16 @@
                     }
                     }
                 ?>
+    <?php if( isset($error)) : ?>
+    <div class="alert alert-danger" role="alert">
+     <center> Email or WalletID already exist!</center>
+    </div>
+    <?php endif; ?>
+                </div>
             </div>
         </div>
     </div>
+</form>
 </body>
-<?php include "templates/footer.php" ?>
+<?php include "../templates/footer.php" ?>
 </html>
