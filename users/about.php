@@ -6,7 +6,7 @@
  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:ital,wght@0,100;0,300;1,100&family=Trispace:wght@500;600;800&family=VT323&display=swap" rel="stylesheet">
  <?php
-    include "header.php";
+    include "../templates/header.php";
  ?>
 
 
@@ -23,12 +23,12 @@
     <div class="navigation2">
         <a class="button" href="index.php"><div class="Our NFTs">Our NFTs</div> </a>
         <br/><br/><br/><br/>
-        <h1><CENTER><img src="img/text.jpg" width=50% height=50%></CENTER></h1></div>
+        <h1><CENTER><img src="../assets/text.jpg" width=50% height=50%></CENTER></h1></div>
 </h3>
 
   <div class="containerfoto">
   <h1><CENTER>ABOUT US</CENTER><hr>
-  <h1><img src="img/aboutus.jpg" style="width:100%; border: 2px solid cyan;
+  <h1><img src="../assets/aboutus.jpg" style="width:100%; border: 2px solid cyan;
   border-radius: 8px;"></div></h1>
   <body>
    <div class="namakelompok">
@@ -41,6 +41,6 @@
 
   </body>
  <?php
-    include "footer.php";
+    include "../templates/footer.php";
     ?>
     </html>

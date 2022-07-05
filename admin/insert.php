@@ -1,27 +1,51 @@
+<!doctype html>
+<html lang="en">
 <?php
-include "header.php"
+include "../templates/header.php"
 ?>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:ital,wght@0,100;0,300;1,100&family=Trispace:wght@500;600;800&family=VT323&display=swap" rel="stylesheet">
        
-  <div class="card">
+	<div class="main">
+    <div class="div-content">
+    <div class="all">
+    <div class="center">
+</head>
   
-    <a>Produk Baru</a>
+    <a><Center>UPLOAD NFT ARTS</Center></a>
     <table>
     <form action="index.php" method="post" enctype="multipart/form-data">
              <tr>
-            <input type="text" name="nft" value="insert"></tr>
+            <input type="hidden" name="nft" value="insert"></tr>
 		    <tr>
-				<td>foto nft </td>
-				<td style = "position: relative; left: 50px;"><input type="file" name="image"></td>					
+				<td>NFT </td>
+				<td style = ><input type="file" name="image"></td>					
 			</tr>	
 			<tr>
-				<td>nama nft</td>
+				<td>Name</td>
 				<td><input type="text" name="title"></td>				
 			</tr>
 			<tr>
-				<td></td>
-				<td><input type="submit" value="Simpan"></td>			
+				<td>Price</td>
+				<td><input type="int" name="price"></td>		
 			</tr>
-    </form>		
+			<tr>
+				<td></td>
+				<td><input type="submit" value="save"></td>			
+			</tr>
+    </form>	
 	</table> 
     </div>
-   
+	</div>
+	</div>
+	</div>
+    <?php
+    include "../templates/footer.php";
+    ?>
+</html>

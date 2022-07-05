@@ -1,6 +1,6 @@
 <?php
     require "connection.php";
-    include "header.php";
+    include "templates/header.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -71,5 +71,5 @@
         </div>
     </div>
 </body>
-<?php include "footer.php" ?>
+<?php include "templates/footer.php" ?>
 </html>
