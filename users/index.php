@@ -41,8 +41,8 @@ h1 {
       }
       </style>
         <a class="button" href="about.php"><div class="about us">about us</div> </a>
-</h3>
-<style>
+      </h3>
+        <style>
       button {
         display: inline-block;
         background-color: #009dff;
@@ -60,43 +60,29 @@ h1 {
         margin-bottom:-20px;
       }
     </style>
+
 <?php $posts = $con->query("SELECT * FROM nft");
 while($post = $posts->fetch_object()) {
   ?>
-    <div class="container1 ml-5 mt-3" style="width: 220px; float:left; height: 300px; background: black";>
+
+    <div class="container1 ml-5 mt-3" style="width: 220px; float:left; height: 300px; background: black; margin-left: 10%; margin-bottom:2%; margin-top:5%";>
       <div class="gambar" style="width:100%; height:60%; background:white;">
-        <img src ="users/<?php echo $post->image ?>"width= "100%"> </div>
-        <a href="nftpost.php?id=<?php echo $post->id ?>"><h2 class="btn btn-outline-secondary"></h2></a>
-          <div class="ForText" style="width:100%; height:26%; background:white;">
-            <?php echo $post->title; ?>
-            <p class="price"><?php echo $post->price; ?></p> </div>
+        <img src ="../assets/<?php echo $post->image ?>"width= "100%" height="120%"> </div>
+        <h2 class="btn btn-outline-secondary"></h2></a>
+          <div class="ForText" style="width:100%; height:24%; background:white;">
+          </br><center><?php echo $post->title; ?></center>
+            <div class="price">
+              <center><img src="../assets/eth.png" style="width:15px; height:23px; margin-bottom:-6px">
+                <?php echo $post->price; ?></center></div> </div>
                 <div class="buy" style="width:100%; height:5%; background:white;">
-                <p><a href="buy.php"><button>BUY</button></a></p>
+                <center><button onclick="window.location.href = 'buy.php'" type="button">BUY</center>
                 </div>
       </div>
 
 <?php
 }
 ?>
-  
-    </div>
-    
-    <div class="container2 ml-5 mt-3" style="width: 220px; float:left;
-    height: 300px;
-    background: black";>
-     <div class="gambar" style="width:100%; height:60%; background:white;">
-        <img src="img/pinkninjagirl.jpg" style="width:100%; height:110%;">
-    </div>
-    <div class="ForText" style="width:100%; height:26%; background:white;">
-            <h3><center>Baby#2</center></h3>
-            <center><img src="img/eth.png" style="width:15px; height:23px; margin-bottom:-6px">2</center>
 
-            </div>
-            <div class="buy" style="width:100%; height:5%; background:white;">
-            <center><button onclick="window.location.href = 'buy.php'" type="button">BUY</center>
-         </div>
-    </div>
-   
 </body>
 <?php include "../templates/footer.php" ?>
 

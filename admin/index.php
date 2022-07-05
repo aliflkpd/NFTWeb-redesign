@@ -6,7 +6,7 @@
 if(isset($_POST["nft"]) && $_POST["nft"] == 'insert')
 
 if($_POST["nft"] == 'insert') {
-    $target_dir = "../users/";
+    $target_dir = "../assets/";
     $target_file = $target_dir . basename($_FILES["image"]["name"]);
     move_uploaded_file($_FILES["image"]["tmp_name"], $target_file);
     $title = $_POST['title'];

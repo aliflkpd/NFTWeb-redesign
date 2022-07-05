@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:ital,wght@0,100;0,300;1,100&family=Trispace:wght@500;600;800&family=VT323&display=swap" rel="stylesheet">
  <?php
-    include "templatesheader.php";
+    include "../templates/header.php";
  ?>
  <style>
    .purchasingbox {
@@ -20,7 +20,7 @@
 
  </style>
  <div class="center">
-        <h1><img src="text.jpg" width=100% height=100%></h1></div>
+        <h1><img src="../assets/text.jpg" width=100% height=100%></h1></div>
  </head> 
     
  <body style="background-color: #ff6f00">
@@ -35,6 +35,6 @@
 
   </body>
  <?php
-    include "templates/footer.php";
+    include "../templates/footer.php";
     ?>
     </html>

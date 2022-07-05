@@ -170,33 +170,6 @@ form input {
 
 }
 
-.container2 {
-  border: 2px solid cyan;
-  border-radius: 8px;
-  padding: 5px;
-  margin-left:2%;
-  margin-top:10%;
-  margin-bottom:10%;
-}
-
-.container3 {
-  border: 2px solid cyan;
-  border-radius: 8px;
-  padding: 5px;
-  margin-left:20%;
-  margin-top:-5%;
-  margin-bottom:10%;
-}
-
-.container4 {
-  border: 2px solid cyan;
-  border-radius: 8px;
-  padding: 5px;
-  margin-left:2%;
-  margin-top:-5%;
-  margin-bottom:10%;
-}
-
 .containerfoto {
   font-size: 20px;
   font-family: 'Indie Flower', cursive;
