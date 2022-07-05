@@ -38,12 +38,7 @@
                     <div>
                         <a href="register.php"> <br/><center> don't have an account? register here!</center></a>
                     </div>
-                </div>
-            </div>
-        </div>
-                </form>
-
-                <?php
+                    <?php
                     if(isset($_POST['submit'])){
                     $email = ($_POST['email']);
                     $password = ($_POST['password']);
@@ -62,17 +57,33 @@
                             header("location: index.php");
                         } 
                         else {
-                            echo "Your Password is invalid";
+                            $passwordinvalid = true;
                         }
                     }
                     else {
-                        echo "Your account do not exist!";
+                        $accountinvalid = true;
                     }
                 }
                 ?>
-        </div>
+    <?php if( isset($accountinvalid)) : ?>
+    <div class="alert alert-danger" role="alert">
+     <center> Your account doesn't exist !</center>
     </div>
-</div>
+    <?php endif; ?>
+
+    <?php if( isset($passwordinvalid)) : ?>
+    <div class="alert alert-danger" role="alert">
+     <center> Password Invalid !</center>
+    </div>
+    <?php endif; ?>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+                </form>
+
 
 </body>
 <?php include "../templates/footer.php" ?>
