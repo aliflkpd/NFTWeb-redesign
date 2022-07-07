@@ -1,7 +1,8 @@
 <!doctype html>
 <html lang="en">
 <?php
-include "../templates/header.php"
+include "../templates/header.php";
+require "../users/connection.php";
 ?>
 <head>
     <meta charset="UTF-8">

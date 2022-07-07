@@ -40,11 +40,13 @@ $row        = mysqli_fetch_array($babydom);
 			<div class="center">
 				<div class="div-box">
     <a><Center>UPDATE YOUR NFT</Center></a></br></br>
-    <input type="hidden" name="submit" value="update">
-    <input type="hidden" value="<?php echo $row['id'];?>" name="id_nft">
-    <input type="hidden" name="submit" value="update">
+    <form action="index.php" method="post" enctype="multipart/form-data">   
+   
+     <input type="hidden" name="submit" value="update">
+     <input type="hidden" value="<?php echo $row['id'];?>" name="id_nft">
+     <input type="hidden" name="submit" value="update">
         <table>
-        <form action="index.php" method="post" enctype="multipart/form-data">
+       
             <tr>
                 <td>NFT</td>
 				<td><input type="file" name="image"></td>			
