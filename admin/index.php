@@ -55,6 +55,28 @@ if($_POST["nft"] == 'insert') {
  }
  $posts = $con->query("SELECT * FROM nft");
  ?>
+
+<?php
+while($post = $posts->fetch_object()) {
+ ?>
+    <div class="container1 ml-5 mt-3" style="width: 220px; float:left; height: 300px; background: black; margin-left: 10%; margin-bottom:2%; margin-top:5%";>
+      <div class="gambar" style="width:100%; height:55%; background:white;">
+        <img src ="../assets/<?php echo $post->image ?>"width= "100%" height="122%"> </div>
+        <h2 class="btn btn-outline-secondary"></h2></a>
+          <div class="ForText" style="width:100%; height:24%; background:white;">
+          </br>#ID : <?php echo $post->id ?><center><?php echo $post->title; ?></center>
+            <div class="price">
+              <center><img src="../assets/eth.png" style="width:15px; height:23px; margin-bottom:-6px">
+                <?php echo $post->price; ?></center></div> </div>
+                <div class="update" style="width:100%; height:5%; background:white;">
+</br>
+                <button onclick="window.location.href = 'update.php?id=<?php echo $post->id ?>'" type="button" 
+                style="width:45%; height:160%;">edit </button>
+
+                <button onclick="window.location.href = 'delete.php?id=<?php echo $post->id ?>'; return confirm('Are you sure to delete the nft? this will remove the whole nft data from database')" type="button"style="width:47%; height:160%;"> Delete </button><a>
+                
+      </div>
+</div>
 <style>
 button {
         display: inline-block;
@@ -79,27 +101,6 @@ button:hover {
       
       }
     </style>
-<?php
-while($post = $posts->fetch_object()) {
- ?>
-    <div class="container1 ml-5 mt-3" style="width: 220px; float:left; height: 300px; background: black; margin-left: 10%; margin-bottom:2%; margin-top:5%";>
-      <div class="gambar" style="width:100%; height:55%; background:white;">
-        <img src ="../assets/<?php echo $post->image ?>"width= "100%" height="122%"> </div>
-        <h2 class="btn btn-outline-secondary"></h2></a>
-          <div class="ForText" style="width:100%; height:24%; background:white;">
-          </br>#ID : <?php echo $post->id ?><center><?php echo $post->title; ?></center>
-            <div class="price">
-              <center><img src="../assets/eth.png" style="width:15px; height:23px; margin-bottom:-6px">
-                <?php echo $post->price; ?></center></div> </div>
-                <div class="update" style="width:100%; height:5%; background:white;">
-</br>
-                <button onclick="window.location.href = 'update.php?id=<?php echo $post->id ?>'" type="button" 
-                style="width:45%; height:160%;">edit </button>
-
-                <button onclick="window.location.href = 'delete.php?id=<?php echo $post->id ?>'; return confirm('Are you sure to delete the nft? this will remove the whole nft data from database')" type="button"style="width:47%; height:160%;"> Delete </button><a>
-                
-      </div>
-</div>
 </body>
    <?php
 }
