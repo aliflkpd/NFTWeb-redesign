@@ -52,7 +52,6 @@
                             if(password_verify($password, $data['password'])) {
                             $_SESSION['logged_in'] = true;
                             $_SESSION['email'] = $data['email'];
-                            $_SESSION['WalletID'] = $data['WalletID'];
 
                             header("location: index.php");
                         } 
